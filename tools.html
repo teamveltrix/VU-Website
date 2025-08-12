@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
 
@@ -9,73 +11,51 @@
 </head>
 
 <body>
+  {% include sidebar.html %}
+
   <div class="sidebar">
     <h1 class="sidebar-section sidebar-section-title">VistaUpdater</h1>
     <h3 class="sidebar-section sidebar-section-title">VistaUpdaterを開始</h3>
     <ul>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/vistaupdater.png"
-        /><a href="/">ホーム</a>
+        <img class="sidebar-section sidebar-img" src="/assets/vistaupdater.png" /><a href="/">ホーム</a>
       </li>
       <li class="sidebar-section">
-        <img class="sidebar-section sidebar-img" src="/assets/book.png" /><a
-          class="sidebar-section"
-          href="/guide.html"
-          >セットアップ ガイド</a
-        >
+        <img class="sidebar-section sidebar-img" src="/assets/book.png" /><a class="sidebar-section"
+          href="/guide.html">セットアップ ガイド</a>
       </li>
       <li class="sidebar-section">
-        <img class="sidebar-section sidebar-img" src="/assets/tool.png" /><a
-          class="sidebar-section"
-          href="/tools.html"
-          >追加アプリケーション</a
-        >
+        <img class="sidebar-section sidebar-img" src="/assets/tool.png" /><a class="sidebar-section"
+          href="/tools.html">追加アプリケーション</a>
       </li>
       <li class="sidebar-section">
-        <img class="sidebar-section sidebar-img" src="/assets/error.png" /><a
-          class="sidebar-section"
-          href="/errors.html"
-          >トラブルシューティング</a
-        >
+        <img class="sidebar-section sidebar-img" src="/assets/error.png" /><a class="sidebar-section"
+          href="/errors.html">トラブルシューティング</a>
       </li>
     </ul>
     <h3 class="sidebar-section sidebar-section-title">その他</h3>
     <ul>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/vistaupdater.png"
-        /><a href="/win7/">Win7Updaterを試す</a>
+        <img class="sidebar-section sidebar-img" src="/assets/vistaupdater.png" /><a href="/win7/">Win7Updaterを試す</a>
       </li>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/source_code.png"
-        /><a href="/opensource.html">オープンソース</a>
+        <img class="sidebar-section sidebar-img" src="/assets/source_code.png" /><a href="/opensource.html">オープンソース</a>
       </li>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/messenger.png"
-        /><a href="https://twitter.com/vistaupdater">Twitter (X)</a>
+        <img class="sidebar-section sidebar-img" src="/assets/messenger.png" /><a
+          href="https://twitter.com/vistaupdater">Twitter (X)</a>
       </li>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/source_code.png"
-        /><a href="https://github.com/vistaupdater">GitHub</a>
+        <img class="sidebar-section sidebar-img" src="/assets/source_code.png" /><a
+          href="https://github.com/vistaupdater">GitHub</a>
       </li>
       <li class="sidebar-section">
-        <img
-          class="sidebar-section sidebar-img"
-          src="/assets/messenger.png"
-        /><a href="https://discord.gg/tJTTM56Wg2">Discord</a>
+        <img class="sidebar-section sidebar-img" src="/assets/messenger.png" /><a
+          href="https://discord.gg/tJTTM56Wg2">Discord</a>
       </li>
     </ul>
   </div>
-  
+
   <div class="content">
     <h1>ツールをダウンロード</h1>
     <section>
@@ -101,7 +81,7 @@
       <p>VistaUpdater で破壊されたPC(VUブリックされたPC)を修復します。<br>
 
         サポートOS: Windows Vista with VistaUpdater<br><br>
-        バージョン 1.3.5&emsp;<a id="button" href="/tools/RepairTool.exe" >ダウンロード</a><br><br>
+        バージョン 1.3.5&emsp;<a id="button" href="/tools/RepairTool.exe">ダウンロード</a><br><br>
     </div><br>
 
     <!-- <div class="left" style="background-color: rgb(201, 242, 255); width: 70%; padding-left: 20px;">
@@ -118,7 +98,8 @@
       <h1>.NET Framework 4.6</h1>
       <p>.NET Framework 4.6 のオフラインインストーラーです。<br>
         サポートOS: Windows Vista SP2 ~ 8.1, Server 2008 SP2 - 2012 R2<br><br>
-        <a id="button" href="http://download.microsoft.com/download/C/3/A/C3A5200B-D33C-47E9-9D70-2F7C65DAAD94/NDP46-KB3045557-x86-x64-AllOS-ENU.exe">ダウンロード</a><br><br>
+        <a id="button"
+          href="http://download.microsoft.com/download/C/3/A/C3A5200B-D33C-47E9-9D70-2F7C65DAAD94/NDP46-KB3045557-x86-x64-AllOS-ENU.exe">ダウンロード</a><br><br>
     </div><br>
 
 
@@ -127,8 +108,10 @@
       <p>Service Pack 2を手動でインストールするには、これを使用してください。<br>
 
         サポートOS: Windows Vista SP1<br><br>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2009/06/windows6.0-kb948465-x64_2eedca0bfa5ae8d1b0acf2117ddc4f15ac5183c9.exe">x64版をダウンロード</a>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2009/06/windows6.0-kb948465-x86_55f17352b4398ecb4f0cc20e3737631420ca1609.exe">x86版をダウンロード</a><br><br>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2009/06/windows6.0-kb948465-x64_2eedca0bfa5ae8d1b0acf2117ddc4f15ac5183c9.exe">x64版をダウンロード</a>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2009/06/windows6.0-kb948465-x86_55f17352b4398ecb4f0cc20e3737631420ca1609.exe">x86版をダウンロード</a><br><br>
     </div><br>
 
     <div class="left" style="background-color: rgb(201, 242, 255); width: 70%; padding-left: 20px;">
@@ -136,8 +119,10 @@
       <p>Service Pack 1を手動でインストールするには、これを使用してください。<br>
 
         サポートOS: Windows Vista RTM<br><br>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2008/04/windows6.0-kb936330-x64_12eed6cf0a842ce2a609c622b843afc289a8f4b9.exe">x64版をダウンロード</a>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2008/04/windows6.0-kb936330-x86_b8a3fa8f819269e37d8acde799e7a9aea3dd4529.exe">x86版をダウンロード</a><br><br>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2008/04/windows6.0-kb936330-x64_12eed6cf0a842ce2a609c622b843afc289a8f4b9.exe">x64版をダウンロード</a>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2008/04/windows6.0-kb936330-x86_b8a3fa8f819269e37d8acde799e7a9aea3dd4529.exe">x86版をダウンロード</a><br><br>
     </div><br>
 
     <h1>Windows 7</h1>
@@ -148,8 +133,10 @@
       <p>Service Pack 1を手動でインストールするには、これを使用してください。<br>
 
         サポートOS: Windows 7 RTM<br><br>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe">x64版をダウンロード</a>
-        <a id="button" href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe">x86版をダウンロード</a><br><br>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe">x64版をダウンロード</a>
+        <a id="button"
+          href="http://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe">x86版をダウンロード</a><br><br>
     </div><br>
   </div>
   <footer>
